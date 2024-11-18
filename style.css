@@ -93,13 +93,13 @@ button:hover {
     }
 
     .left-section {
-        width: 45%;
+        width: 100%;
         border-right: none;
         border-bottom: 4px solid #9f7aea;
     }
 
     .right-section {
-        width: 45%;
+        width: 100%;
         box-shadow: 0 4px 6px rgba(128, 128, 128, 0.5);
     }
 
