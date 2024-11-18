@@ -9,50 +9,79 @@
 </head>
 
 <body>
-    <h1>Static Resume Builder by Aleeza</h1>
-    <form id="resumeForm">
-        <fieldset>
-            <legend><b>Personal Information</b></legend>
-            <label for="name">Full Name: </label>
-            <input type="text" id="name" name="name" required><br />
+    <div class="resume-container">
+        <!-- left section -->
+        <div class="left-section">
+            <img src="profilePicture.webp" alt="profilepicture" class="profile-picture">
 
-            <label for="email">Email: </label>
-            <input type="email" id="email" name="email" required>
+            <section id="career-objective">
+                <h3 style="color:white">Career Objective</h3>
+                <p style="text-align: justify; hyphens: auto">To secure an employment opportunity with a progressive
+                    organization, where I can utilize my professional skills and knowledge to the maximum and value in
+                    the growth of organisation.</p>
+            </section>
 
-            <label for="phone">Phone Number: </label>
-            <input type="tel" id="phone" name="phone" required>
+            <section id="certifications">
+                <h3 style="color:white">Certifications</h3>
+                <p><b>Artificial Intelligence, Web 3.o & Metaverse:</b> From Governor House, Karachi (Ongoing)</p>
+            </section>
 
-            <label for="address">Address: </label>
-            <input type="text" id="address" name="address" required>
-        </fieldset>
+            <section id="languages">
+                <h3 style="color:white">Languages</h3>
+                <ul style="text-align: start;">
+                    <li style="padding-bottom: 10px;">Urdu</li>
+                    <li>English</li>
+                </ul>
+            </section>
+        </div>
+        <!-- right section -->
+        <div class="right-section">
+            <h1>Static Interactive Resume</h1>
+            <!-- personal information -->
+            <section id="personal-information">
+                <h3>Personal Information</h3>
+                <p><b>Name:<b> Syeda Aleeza Abbas Zaidi</p>
+                <p><b>Phone Number:<b></b> +92 331 3398057</p>
+                <p><b>Address:<b> Block A North Nazimabad</p>
+                <p><b>Email:<b> <a href="mailto:syedaaleezaabbas@gmail.com">syedaaleezaabbas@gmail.com</a> </p>
+                <p><b>Linkedin:<b> <a href="https://www.linkedin.com/in/syeda-aleeza-abbas-a391812ba"
+                                target="_blank">www.LinkedIn.com</a></p>
+            </section>
 
+            <!-- education -->
+            <section id="education">
+                <h3>Education</h3>
+                <p><b>Bachelors:</b> B.Sc from University of Karachi (ongoing)</p>
+                <p><b>Intermediate:</b> APWA College For Women (2018 - 2019)</p>
+                <p><b>Matriculation:</b> Al-Saqib Public School (2017)</p>
+            </section>
 
-        <fieldset>
-            <legend><b>Education</b></legend>
-            <label for="education">Education</label>
-            <textarea id="education" name="education" rows="3" required></textarea><br />
-        </fieldset>
+            <!-- skills -->
+            <section id="skills">
+                <h3>Skills</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JAVASCRIPT</li>
+                    <li>TYPESCRIPT</li>
+                    <li>REACT</li>
+                    <li>NEXT JS</li>
+                    <li>TAILWIND CSS</li>
+                </ul>
+            </section>
 
-        <fieldset>
-            <legend><b>Experience</b></legend>
-            <label for="experience">Experience</label>
-            <textarea id="experience" name="experience" rows="3" required></textarea><br />
-        </fieldset>
+            <!-- work experience -->
+            <section id="work-experience">
+                <h3>Work Experience</h3>
+                <p>Seeking an opportunity as a fresh candidate to start my professional career.</p>
+            </section>
 
-        <fieldset id="skillsSection">
-            <legend><b>Skills</b></legend>
-            <label for="skills">Skills</label>
-            <textarea name="skills" id="skills" rows="4" required></textarea><br />
-        </fieldset>
-
-        <!-- Toggle Button for Skills Section -->
-         <button type="button" id="toggleSkillsButton"><b>Toggle Skills Section</b></button>
-
-        <button type="submit"><b>Generate Resume</b></button>
-
-    </form>
-
-    <script src="script.js" defer></script>
+            <!-- toggle button -->
+            <button id="toggle-skills"><b>Hide/Show Skills</b>
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
