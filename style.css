@@ -1,6 +1,6 @@
 body {
-    font-family: 'Arial', sans-serif;
-    margin: #f4f4f4;
+    font-family: 'Arial', 'sans-serif';
+    background-color: #f4f4f4;
     padding: 150px;
     margin: 0;
 }
@@ -81,7 +81,6 @@ button:hover {
 
 
 @media (max-width: 768px) {
-
     body {
         padding: 0;
     }
@@ -89,12 +88,10 @@ button:hover {
     .resume-container {
         flex-direction: column;
         width: 80%;
-        padding-right: 60px;
-        padding-left: 20px;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding: 20px 60px 20px 20px;
         margin: 0;
     }
+
 
     .left-section {
         width: 100%;
