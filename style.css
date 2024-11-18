@@ -82,9 +82,18 @@ button:hover {
 
 @media (max-width: 768px) {
 
+    body {
+        padding: 0;
+    }
+
     .resume-container {
         flex-direction: column;
         width: 90%;
+        padding-right: 60px;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: 0;
     }
 
     .left-section {
