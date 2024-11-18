@@ -79,50 +79,6 @@ button:hover {
     background-color: #9f7aea;
 }
 
-/* @media (max-width:768px) {
-    .resume-container {
-        flex-direction: column;
-        width: 100%;
-
-    }
-
-    .left-section {
-        width: 100%;
-        padding: 10px;
-        border-right: none;
-    }
-
-    .right-section {
-        width: 100%;
-    }
-
-    .left-section {
-        order: 1;
-    }
-
-    .right-section {
-        order: 2;
-    }
-
-    .profile-picture {
-        width: 120px;
-        height: 120px;
-        margin-top: 5%;
-    }
-
-    h1 {
-        font-size: 20px;
-    }
-
-    h3 {
-        font-size: 16px;
-    }
-
-    button {
-        font-size: 16px;
-    }
-} */
-
 
 @media (max-width: 768px) {
     body {
@@ -131,18 +87,20 @@ button:hover {
 
     .resume-container {
         flex-direction: column;
-        width: 100%;
+        width: 90%;
+        padding: 50px;
         margin: 0;
     }
 
     .left-section {
-        width: 100%;
+        width: 45%;
         border-right: none;
         border-bottom: 4px solid #9f7aea;
     }
 
     .right-section {
-        width: 100%;
+        width: 45%;
+        box-shadow: 0 4px 6px rgba(128, 128, 128, 0.5);
     }
 
     .profile-picture {
