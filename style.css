@@ -88,8 +88,6 @@ button:hover {
     .resume-container {
         flex-direction: column;
         width: 80%;
-        padding: 20px 60px 20px 20px;
-        margin: 0;
     }
 
 
